@@ -1,0 +1,2 @@
+name: "ament-cpplint check"
+description: "Use ament_cpplint to see if your ROS2 package is formatted according to google-lint standards."
