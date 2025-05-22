@@ -1,5 +1,5 @@
-ARG ROS2_VERSION
-FROM ros:${ROS2_VERSION}-ros-base
+ARG ros2-version
+FROM ros:${ros2-version}-ros-base
 
 #ARG ROS2_VERSION
 
