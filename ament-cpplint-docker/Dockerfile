@@ -1,5 +1,5 @@
-#ARG ROS2_VERSION
-# FROM ros:${ROS2_VERSION}-ros-base
+ARG ROS2_VERSION
+FROM ros:${ROS2_VERSION}-ros-base
 
 #ARG ROS2_VERSION
 
@@ -18,7 +18,7 @@
 
 
 # Container image that runs your code
-FROM alpine:3.10
+#FROM alpine:3.10
 #FROM ros:humble-ros-base
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
