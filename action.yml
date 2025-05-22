@@ -1,2 +1,14 @@
 name: "ament-cpplint check"
 description: "Use ament_cpplint to see if your ROS2 package is formatted according to google-lint standards."
+
+inputs:
+  ros2-version:
+    description: "Version of ROS2 to use."
+    required: false
+    default: 'humble'
+
+runs:
+  using: 'docker'
+  image: 'ament-cpplint-docker/Dockerfile'
+  args:
+    - ${{ inputs.ros2-version }}
