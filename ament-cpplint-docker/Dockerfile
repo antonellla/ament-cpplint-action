@@ -1,7 +1,7 @@
 ARG ros2-version
 FROM ros:${ros2-version}-ros-base
 
-#ARG ROS2_VERSION
+# ARG ROS2_VERSION
 
 #RUN apt update \
 #    && apt install --no-install-recommends -y \
